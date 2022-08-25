@@ -36,7 +36,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: red;
 }
 
 .container {
