@@ -5,7 +5,7 @@ body {
 
 h1 {
   color: red;
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px pink;
   display: inline-block;
 }
 
@@ -16,7 +16,7 @@ h1 {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 100px;
   padding: 0;
   overflow: hidden;
   background-color: rgb(207, 91, 91);
