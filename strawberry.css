@@ -1,6 +1,4 @@
 body {
-  flex-direction: column;
-  background-color: pink;
   font-family: "Playfair Display";
   font-size: 10px;
 }
@@ -38,7 +36,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: red;
 }
 
 .container {
