@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="strawberry.css" />
+    <title>Welcome to Strawberry Hill</title>
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <ul class="nav-bar">
+        <li>
+          <a href=""><strong>Contact Us</strong></a>
+        </li>
+        <li>
+          <a href=""><strong>Recipes</strong></a>
+        </li>
+        <li>
+          <a href=""><strong>Shop</strong></a>
+        </li>
+        <li>
+          <a href=""><strong>About Us</strong></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Start Content -->
+    <!-- Image with Text -->
+    <header>
+      <div class="container">
+        <img
+          src="/image/strawberries-6165597_1280.jpg"
+          alt="Strawberry"
+          style="width: 100%"
+        />
+        <div class="bottom-left" id="heading">
+          <h2>&#127827;Welcome to the Strawberry Jam Shop&#127827;</h2>
+        </div>
+        <div class="center-right">
+          <h1>Quality Strawberry Jam</h1>
+          <br />
+          <h2>Tradition since 1889</h2>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-us">
+      <div class="about-img">
+        <img class="jam" src="image/strawberry2.jpg" alt="Strawberry Jam" />
+      </div>
+      <div class="about-ustext" id="about-us">
+        <h1>About Us</h1>
+        <p>
+          For <strong>Over 30 years,</strong> we have strived to perfect the
+          Strawberry Jam.
+        </p>
+        <p>
+          We have worked closely with the farmers to
+          <strong>ensure sustainability</strong> is at the heart of our product.
+        </p>
+        <p>
+          There are <strong>Range of Recipes</strong> below, which you can try
+          with our quality range of Strawberry Jam.
+        </p>
+        <button type="button">Shop Now</button>
+      </div>
+    </section>
+
+    <hr />
+    <!-- Our Products -->
+    <section class="recipes">
+      <h3 class="recipe-title">Recipes</h3>
+      <div class="row">
+        <div class="column">
+          <img
+            class="strawberry-recipe"
+            src="image/Strawberry-blueberry.jpg"
+            alt="Strawberry Blueberry Jam Recipe"
+            style="width: 300px"
+          /><a
+            class="strawberry-link"
+            href="https://www.bhg.com/recipe/sugar-free-blueberry-strawberry-jam/"
+            alt="Strawberry Blueberry Recipe Link"
+            ><h3>Strawberry Blueberry</h3></a
+          >
+        </div>
+        <div class="column">
+          <img
+            class="strawberry-recipe"
+            src="image/Strawberry-marmlade.jpg"
+            alt="Strawberry Brandied Jam Recipe"
+            style="width: 300px"
+          /><a
+            class="strawberry-link"
+            href="https://www.bhg.com/recipe/strawberry-freezer-jam/"
+            alt="Strawberry Marmalade Recipe Link"
+            ><h3>Strawberry Marmalade</h3></a
+          >
+        </div>
+        <div class="column">
+          <img
+            class="strawberry-recipe"
+            src="image/strawberry-rhubarb.jpg"
+            alt="Strawberry Rhubarb Jam Recipe"
+            style="width: 300px"
+          /><a
+            class="strawberry-link"
+            href="https://www.bhg.com/recipe/strawberry-rhubarb-freezer-jam/"
+            alt="Strawberry Rhubarb Recipe Link"
+            ><h3>Strawberry Rhubarb</h3></a
+          >
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- Contact Us -->
+    <footer class="contactus-container">
+      <form>
+        <fieldset>
+          <legend><h3>Contact Us</h3></legend>
+
+          <label for="first">First Name:</label>
+          <input
+            type="text"
+            id="first"
+            name="first"
+            placeholder="First Name"
+            minlength="5"
+            maxlength="100"
+          /><br />
+          <label for="last">Last Name:</label>
+          <input
+            type="text"
+            id="last"
+            name="last"
+            placeholder="Last Name"
+            minlength="5"
+            maxlength="100"
+            required
+          /><br />
+          <label for="birthday">Date of Birth:</label>
+          <input
+            type="text"
+            id="birthday"
+            name="birthday"
+            placeholder="Birthday"
+            minlength="5"
+            maxlength="100"
+            required
+          /><br />
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email"
+            minlength="5"
+            maxlength="100"
+            required
+          /><br />
+          <input
+            type="submit"
+            id="submit"
+            name="email"
+            placeholder="Email"
+            minlength="5"
+            maxlength="100"
+            required
+          />
+        </fieldset>
+      </form>
+    </footer>
+  </body>
+</html>
