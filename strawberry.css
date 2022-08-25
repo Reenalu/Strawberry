@@ -1,7 +1,8 @@
 body {
   flex-direction: column;
-  background-color: whitesmoke;
+  background-color: pink;
   font-family: "Playfair Display";
+  font-size: 10px;
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 
 #heading {
   text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
 }
 
 ul {
