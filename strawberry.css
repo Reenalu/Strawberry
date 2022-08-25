@@ -1,11 +1,11 @@
 body {
   font-family: "Playfair Display";
-  font-size: 10px;
+  width: 100%;
 }
 
 h1 {
   color: red;
-  text-shadow: 1px 1px pink;
+  text-shadow: 1px 1px red;
   display: inline-block;
 }
 
@@ -71,6 +71,7 @@ section {
   float: left;
   margin-top: 30px;
   border-radius: 20px;
+  width: 100%;
 }
 
 .column {
